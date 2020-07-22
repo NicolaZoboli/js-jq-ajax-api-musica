@@ -26,6 +26,18 @@ header img {
     margin-top: 10px;
 }
 
+.container-music {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-music form {
+  margin-top: 30px;
+  color: white;
+}
+
 .cds-container {
     display: flex;
     justify-content: center;

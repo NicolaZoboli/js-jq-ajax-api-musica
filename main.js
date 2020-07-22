@@ -25,6 +25,9 @@ function getMusicListener() {
           var cdHTML = compiled(cd);
           target.append(cdHTML);
         }
+
+        selectGenre();
+
       }
     },
     error: function (request, state, error) {
@@ -33,8 +36,11 @@ function getMusicListener() {
     console.log('error', error);
   }
   });
+}
 
-
+function selectGenre() {
+  var option = $('#genres option');
+  console.log(option);
 }
 
 
